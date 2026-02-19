@@ -28,7 +28,7 @@ npm run dev
 ```
 
 Default URL frontend: `http://localhost:5173`  
-Default API backend: `http://localhost:8080/api/v1`
+Default API di frontend: `/api/v1` (diproxy Vite ke `http://localhost:8080`)
 
 ## Flow Auth yang sudah siap
 - Login: `POST /auth/login`
@@ -42,4 +42,3 @@ Default API backend: `http://localhost:8080/api/v1`
 - `src/pages/LoginPage.tsx`: form login
 - `src/pages/DashboardPage.tsx`: cek profile `/auth/me`
 - `src/layouts/AppLayout.tsx`: layout app + logout
-
